@@ -41,5 +41,13 @@ int main()
         cout << idx << " ";
     cout << "(empty if array is empty)" << endl;
 
+    // another test for practicing git
+    vector<int> arr4 = {10, 11, 12, 13, 10};
+    vector<int> result3 = findAllIndices(arr3, 10);
+    cout << "Indices of 10: ";
+    for (int idx : result1)
+        cout << idx << " ";
+    cout << endl;
+
     return 0;
 }
